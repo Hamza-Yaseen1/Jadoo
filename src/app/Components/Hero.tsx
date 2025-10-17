@@ -31,6 +31,10 @@ const Hero = () => {
 
         {/* Right Image Section */}
         <div className=" md:mt-0 md:w-1/2 flex justify-center">
+        <img src="./Images/plane.png" alt="" 
+        className="object-contain absolute top-52 right-2"/>
+        <img src="./Images/plane.png" alt="" 
+        className="object-contain absolute top-52 right-96"/>
           <img
             src="./Images/Traveller 1.png"
             alt="Traveller"
