@@ -1,11 +1,32 @@
+'use client'
+import BlurText from "../animations/BlurText";
+
 const Hero = () => {
+  function handleAnimationComplete(): void {
+    throw new Error("Function not implemented.");
+  }
+
   return (
     <>
+
+{/* const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+}; */}
+
+
       <section className="flex flex-col md:flex-row justify-between items-center px-10 ">
         {/* Left Text Section */}
         <div className="max-w-xl text-gray-800 space-y-4 md:pr-8 ml-24">
           <h2 className="text-lg font-bold text-[#DF6951] uppercase tracking-wide">
-            Best Destinations Around the World
+            
+            <BlurText
+  text="Best Destinations Around the World"
+  delay={150}
+  animateBy="words"
+  direction="top"
+  onAnimationComplete={handleAnimationComplete}
+  className="text-2xl mb-8"
+/>
           </h2>
 
           <h1 className="text-6xl font-extrabold leading-tight">

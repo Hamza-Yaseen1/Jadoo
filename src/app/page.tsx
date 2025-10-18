@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import Category from "./Components/Category";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
     style={{backgroundImage:"url('./Images/Decore.png')"}}>
     <Navbar/>
     <Hero/>
-      
+      <Category/>
     </div>
     </>
   );
