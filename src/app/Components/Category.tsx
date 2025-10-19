@@ -6,78 +6,59 @@ const Category = ()=>{
        {/* cards */}
        
     <section className="flex justify-evenly">
-       <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-60 p-6">
+       <div className="relative flex flex-col my-6 bg-white shadow-sm border-slate-200 rounded-xl w-60 p-6">
     <img src="/Images/satellite-dish.png" alt="satellite" className="h-10 w-10 ml-10"/>
   <div className="flex items-center mt-2">
-    <h5 className="ml-3 text-slate-800 text-lg font-semibold">
+    <h5 className="ml-3 text-slate-800 text-lg font-semibold pt-2 text-center tracking-wide">
       Calculated Weather
     </h5>
   </div>
-  <p className="block text-slate-600 leading-normal font-light mb-4">
+  <p className="block text-slate-600 leading-normal font-light mb-4 text-md tracking-lg text-center pt-2">
 Built Wicket longer admire do barton vanity itself do in it.  </p>
   <div>
-    <a href="#" className="text-slate-800 font-semibold text-sm hover:underline flex items-center">
-      Learn More
-      <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-      </svg>
-    </a>
+    
   </div>
 </div>
-       <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-60 p-6">
+       <div className="relative flex flex-col my-6 bg-white shadow-sm border-slate-200 rounded-xl w-60 p-6 ">
     <img src="/Images/satellite-dish.png" alt="satellite" className="h-10 w-10 ml-10"/>
   <div className="flex items-center mt-2">
-    <h5 className="ml-3 text-slate-800 text-lg font-semibold">
+    <h5 className="ml-3 text-slate-800 text-lg font-semibold pt-2 text-center tracking-wide">
       Calculated Weather
     </h5>
   </div>
-  <p className="block text-slate-600 leading-normal font-light mb-4">
+  <p className="block text-slate-600 leading-normal font-light mb-4 text-md tracking-lg text-center pt-2">
 Built Wicket longer admire do barton vanity itself do in it.  </p>
   <div>
-    <a href="#" className="text-slate-800 font-semibold text-sm hover:underline flex items-center">
-      Learn More
-      <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-      </svg>
-    </a>
+    
   </div>
 </div>
-       <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-60 p-6">
-    <img src="/Images/satellite-dish.png" alt="satellite" className="h-10 w-10 ml-10"/>
+       <div className="relative flex flex-col my-6 bg-white shadow-sm border-slate-200 rounded-xl w-60 p-6">
+    <img src="/Images/satellite-dish.png" alt="satellite" className="h-10 w-10 ml-16"/>
   <div className="flex items-center mt-2">
-    <h5 className="ml-3 text-slate-800 text-lg font-semibold">
+    <h5 className="ml-3 text-slate-800 text-lg font-semibold pt-2 text-center tracking-wide">
       Calculated Weather
     </h5>
   </div>
-  <p className="block text-slate-600 leading-normal font-light mb-4">
+  <p className="block text-slate-600 leading-normal font-light mb-4 text-md tracking-lg text-center pt-2">
 Built Wicket longer admire do barton vanity itself do in it.  </p>
   <div>
-    <a href="#" className="text-slate-800 font-semibold text-sm hover:underline flex items-center">
-      Learn More
-      <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-      </svg>
-    </a>
+    
   </div>
 </div>
-       <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-60 p-6">
+       <div className="relative flex flex-col my-6 bg-white shadow-sm border-slate-200 rounded-xl w-60 p-6 ">
     <img src="/Images/satellite-dish.png" alt="satellite" className="h-10 w-10 ml-10"/>
   <div className="flex items-center mt-2">
-    <h5 className="ml-3 text-slate-800 text-lg font-semibold">
+    <h5 className="ml-3 text-slate-800 text-lg font-semibold pt-2 text-center tracking-wide">
       Calculated Weather
     </h5>
   </div>
-  <p className="block text-slate-600 leading-normal font-light mb-4">
+  <p className="block text-slate-600 leading-normal font-light mb-4 text-md tracking-lg text-center pt-2">
 Built Wicket longer admire do barton vanity itself do in it.  </p>
   <div>
-    <a href="#" className="text-slate-800 font-semibold text-sm hover:underline flex items-center">
-      Learn More
-      <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-      </svg>
-    </a>
+    
   </div>
 </div>
+      
     </section>
 
 
