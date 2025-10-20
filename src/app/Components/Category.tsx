@@ -24,8 +24,8 @@ const categories: ICategory[] = [
     title: "Best Flights",
     desc: "Engrossed listening. Park gate sell they west hard for the.",
     featured: true, // ⭐ center highlight
-    width: 100,
-    height: 100,
+    width: 150,
+    height: 150,
   },
   {
     image: "/Images/Group.png",
@@ -46,6 +46,9 @@ const categories: ICategory[] = [
 export default function Category() {
   return (
     <section className="py-24">
+      <div className="flex flex-row-reverse items-center text-left">
+      <img src="/Images/Group 4.png" alt="decoration image" className="object-contain" />
+</div>
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-xl font-semibold text-gray-500 text-center tracking-wide">
           Category
