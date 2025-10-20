@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Category from "./Components/Category";
 import Destination from "./Components/Destination";
+import Steps from "./Components/Steps";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Hero/>
       <Category/>
       <Destination/>
+      <Steps/>
     </div>
     </>
   );
