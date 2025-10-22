@@ -48,7 +48,7 @@ const Navbar = () => {
             {/* Desktop nav */}
             <ul className="hidden items-center gap-10 font-medium text-gray-700 lg:flex">
               <li>
-                <a className="hover:text-gray-900 transition-colors" href="#">
+                <a className="hover:text-gray-900 transition-colors" href="/Destination">
                   Destinations
                 </a>
               </li>
